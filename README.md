@@ -12,5 +12,5 @@ Python Formatter: Black
 3. `python3 -m venv venv`
 4. `source venv/bin/activate`
 5. `pip install -r requirements.txt`
-6. `export FLASK=application.py`
+6. `export FLASK_APP=application.py`
 7. `flask run`
