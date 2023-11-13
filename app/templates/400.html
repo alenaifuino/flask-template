@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Bad Request{% endblock %}
+
+{% block body %}
+<div class="container">
+  <h1>400 Error - Bad Request</h1>
+  <p>The server cannot process the request due to a client error.</p>
+  <p><a href="{{ url_for('main.index') }}">Return Home</a></p>
+</div>
+{% endblock %}
